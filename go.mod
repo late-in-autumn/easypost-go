@@ -1,4 +1,4 @@
-module github.com/EasyPost/easypost-go/v2
+module github.com/late-in-autumn/easypost-go/v2
 
 go 1.15
 
