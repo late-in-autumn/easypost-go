@@ -26,6 +26,7 @@ type ShipmentOptions struct {
 	DutyPayment              *Payment   `json:"duty_payment,omitempty"`
 	DutyPaymentAccount       string     `json:"duty_payment_account,omitempty"`
 	DropoffType              string     `json:"dropoff_type,omitempty"`
+	DropoffMaxDatetime       *time.Time `json:"dropoff_max_datetime,omitempty"`
 	DryIce                   bool       `json:"dry_ice,omitempty"`
 	DryIceMedical            bool       `json:"dry_ice_medical,omitempty,string"`
 	DryIceWeight             float64    `json:"dry_ice_weight,omitempty,string"`
@@ -43,6 +44,7 @@ type ShipmentOptions struct {
 	Machinable               bool       `json:"machinable,omitempty"`
 	Payment                  *Payment   `json:"payment,omitempty"`
 	PickupMinDatetime 		 *time.Time `json:"pickup_min_datetime,omitempty"`
+	PickupMaxDatetime 		 *time.Time `json:"pickup_max_datetime,omitempty"`
 	PrintCustom1             string     `json:"print_custom_1,omitempty"`
 	PrintCustom2             string     `json:"print_custom_2,omitempty"`
 	PrintCustom3             string     `json:"print_custom_3,omitempty"`
