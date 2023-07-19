@@ -20,6 +20,7 @@ type ShipmentOptions struct {
 	CODAmount                string     `json:"cod_amount,omitempty"`
 	CODMethod                string     `json:"cod_method,omitempty"`
 	CODAddressID             string     `json:"cod_address_id,omitempty"`
+	ContentDescription       string     `json:"content_description,omitempty"`
 	Currency                 string     `json:"currency,omitempty"`
 	DeliveryConfirmation     string     `json:"delivery_confirmation,omitempty"`
 	DeliveryMaxDatetime 	 *time.Time `json:"delivery_max_datetime,omitempty"`
