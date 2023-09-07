@@ -24,7 +24,7 @@ type TrackingDetail struct {
 	Status           string            `json:"status,omitempty"`
 	DateTime         string            `json:"datetime,omitempty"`
 	Source           string            `json:"source,omitempty"`
-	CarrierCode      string            `json:"carrier_code,omitempty"`
+	CarrierCode      interface{}       `json:"carrier_code,omitempty"`
 	TrackingLocation *TrackingLocation `json:"tracking_location,omitempty"`
 }
 
